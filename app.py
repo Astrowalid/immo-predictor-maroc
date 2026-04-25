@@ -91,3 +91,16 @@ with col2:
         else:
             st.info("### Gamme du bien :\n# 🛋️ Standard")
         st.caption("Modèle : Régression Logistique (Acc ≈ 95%)")
+
+# --- FOOTER SIDEBAR (Créateur & Liens) ---
+st.sidebar.markdown("---")
+st.sidebar.markdown("### 👨‍💻 À propos du créateur")
+st.sidebar.markdown("**Walid Idbennacer**")
+st.sidebar.caption("Data Analytics & AI Student")
+
+# Ajout du lien LinkedIn cliquable
+lien_linkedin = "https://www.linkedin.com/in/VOTRE_PROFIL_ICI/"
+st.sidebar.markdown(f"[🔗 Connectons-nous sur LinkedIn](https://www.linkedin.com/in/walid-idbennacer-65b42a215/)")
+
+st.sidebar.markdown("---")
+st.sidebar.info("📌 Projet Machine Learning (Immobilier Marocain)")
